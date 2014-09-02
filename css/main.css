@@ -1,0 +1,52 @@
+
+body {
+background-color: #53E3D5;
+}
+div{
+	border-style: solid;
+	border-width: 5px;
+	padding: 30px;
+}
+.container {
+border-color: blue;
+}
+.row {
+	border-color: red;
+}
+header {
+	
+}
+header {
+	font-size:150% 
+}
+
+.about-me{
+	text-align: center;
+}
+h1{
+	font-size: 140%
+} 
+h2 {
+	font-size: 120%
+}
+article{
+	
+}
+p {
+	font-size: 90%
+}
+header {
+	font-family: 'Lora', serif;
+}
+h1 {
+	font-family: 'Lora', serif;
+}
+h2 {
+	font-family: 'Lora', serif;
+}
+p {
+	font-family: 'Lora',serif;
+}
+a{
+	color: red;
+}
