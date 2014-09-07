@@ -5,5 +5,8 @@ body {
 	text-align: center;
 }
 h1 {
-	font-family: 'Roboto Slab', serif;
+#carousel-example-generic {
+	width: 500px;
+	
+}	
 
