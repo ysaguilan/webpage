@@ -1,10 +1,13 @@
 body{
-	background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT1jXyGZ1TjV6TNrzHxynq5WyCoXp94r0SfIFhMyG5OROWbrtiN');
+	background-image: url('http://fc06.deviantart.net/fs70/f/2012/163/d/9/quetzalcoatl_sketch_by_zoerosehildebrand-d53aq2x.jpg');
 }
 .gallery{
 	text-align: center;
 }
 body{
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
   font-weight: 300;
+}
+.photos {
+	padding-left: 500px;
 }
