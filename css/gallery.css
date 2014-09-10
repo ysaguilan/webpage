@@ -1,13 +1,80 @@
-body{
-	background-image: url('http://fc06.deviantart.net/fs70/f/2012/163/d/9/quetzalcoatl_sketch_by_zoerosehildebrand-d53aq2x.jpg');
-}
+
+
 .gallery{
 	text-align: center;
 }
 body{
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande"; 
-  font-weight: 300;
+	background-image: url('http://cache.desktopnexus.com/thumbnails/301021-bigthumbnail.jpg');
+	background-size: 1350px;
+	color:white;
+	}
+	#blue-menu {
+width:300px;
+height:10px;
+margin-top:16px;
+background:#373737;
+background-image:linear-gradient(to bottom, #000000, #242424);
+border-bottom:2px solid #00a2ff;
+
+box-shadow:0px 0px 4px #cccccc;
+-moz-box-shadow:0px 0px 4px #cccccc;
+-webkit-box-shadow:0px 0px 4px #cccccc;
+-o-box-shadow:0px 0px 4px #cccccc;
+
+font: 14px 'Nunito' , sans-serif;
 }
+
+#blue-menu a {
+width:auto;
+height:40px;
+display:inline-block;
+background:transparent;
+overflow:hidden;
+float:left;
+text-decoration:none;
+color:#FE0001 ;
+}
+
+#blue-menu h5 {
+margin:0px;
+height:40px;
+line-height:40px;
+text-align:center;
+background: #FE0001;
+background-image:linear-gradient(to bottom, #000000, #242424);
+
+transition:all 0.2s linear;
+-moz-transition:all 0.2s linear;
+-webkit-transition:all 0.2s linear;
+-o-transition:all 0.2s linear;
+}
+
+#blue-menu a:hover h5 {
+margin-top:-40px;
+}
+
+#blue-menu div {
+width:auto;
+height:28px;
+display:block;
+background: #FE0001;
+overflow:hidden;
+padding-right:4px;
+padding-left:4px;
+padding-top:12px;
+color:#ffffff;
+cursor:pointer;
+
+transition:all 0.2s linear;
+-moz-transition:all 0.2s linear;
+-webkit-transition:all 0.2s linear;
+-o-transition:all 0.2s linear;
+}
+
+#blue-menu a:hover div {
+opacity:1;
+}
+
 .photos {
 	padding-left: 500px;
 }
