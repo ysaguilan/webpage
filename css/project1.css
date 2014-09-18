@@ -20,3 +20,15 @@ body {
 	float: left;
 	background: red;
 }
+
+@media and screen and (max-width:959px){
+	#container{
+		width: 100%;
+	}
+	#left-column{
+		width: 70%;
+	}
+	#right-column{
+		width: 30%;
+	}
+}
