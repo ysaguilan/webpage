@@ -2,6 +2,10 @@ body {
 	background-image: url('http://i271.photobucket.com/albums/jj125/veritas771/backgrounds/black_background_15.png');
 	background-size: 2290px;
 	}
+#container {
+	width:960px;
+	margin: 0px auto;
+}
 #yellow-menu {
 width:244px;
 height:42px;
@@ -42,6 +46,26 @@ transition:all 0.2s linear;
 -webkit-transition:all 0.2s linear;
 -o-transition:all 0.2s linear;
 }
+#left-column {
+	width: 700px;
+	float: left;
+	background: blue;
+}
+#right-column {
+	width: 260px;
+	float: left;
+	background: orange;
+}
+@media screen and(max-width:959px) {
+	#container{
+		width: 100%;
+	}
+	#left-column {
+		width: 70%;
+	}
+	#right-column {
+		width: 30%;
+	}
 .google {
 	width: 100px;
 }
