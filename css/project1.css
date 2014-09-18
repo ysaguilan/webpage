@@ -15,3 +15,8 @@ body {
 	float: left;
 	background: blue;
 }
+#right-column{
+	width: 260px;
+	float: left;
+	background: red;
+}
