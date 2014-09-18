@@ -1,79 +1,17 @@
-}
-#blue-menu {
-width:300px;
-height:10px;
-margin-top:16px;
-background:#373737;
-background-image:linear-gradient(to bottom, #000000, #242424);
-border-bottom:2px solid #00a2ff;
-
-box-shadow:0px 0px 4px #cccccc;
--moz-box-shadow:0px 0px 4px #cccccc;
--webkit-box-shadow:0px 0px 4px #cccccc;
--o-box-shadow:0px 0px 4px #cccccc;
-
-font: 14px 'Nunito' , sans-serif;
-}
-
-#blue-menu a {
-width:auto;
-height:40px;
-display:inline-block;
-background:transparent;
-overflow:hidden;
-float:left;
-text-decoration:none;
-color: #993CF3;
-}
-
-#blue-menu h5 {
-margin:0px;
-height:40px;
-line-height:40px;
-text-align:center;
-background: #993CF3;
-background-image:linear-gradient(to bottom,  #000000, #242424);
-
-transition:all 0.2s linear;
--moz-transition:all 0.2s linear;
--webkit-transition:all 0.2s linear;
--o-transition:all 0.2s linear;
-}
-
-#blue-menu a:hover h5 {
-margin-top:-40px;
-}
-
-#blue-menu div {
-width:auto;
-height:28px;
-display:block;
-background: #993CF3;
-overflow:hidden;
-padding-right:4px;
-padding-left:4px;
-padding-top:12px;
-color:#ffffff;
-cursor:pointer;
-
-transition:all 0.2s linear;
--moz-transition:all 0.2s linear;
--webkit-transition:all 0.2s linear;
--o-transition:all 0.2s linear;
-}
-
-#blue-menu a:hover div {
-opacity:1;
-}
 
 body {
 	background-color: #A3A3FF;
 	background-image: url('http://www.wallsk.com/wp-content/uploads/2014/06/neon-backgrounds-for-girls-2.jpg');
 	color: white;
+}
+
+#container{
+	width: 960px;
+	margin: 0px auto;
 
 }
-.text{
-	text-align: center;
+#left-column{
+	width: 700px;
+	float: left;
+	background: blue;
 }
-h1 {
-
