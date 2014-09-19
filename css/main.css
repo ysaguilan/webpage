@@ -6,9 +6,9 @@ body{
 	color: white;
 }
 #blue-menu {
-width:300px;
-height:10px;
-margin-top:16px;
+width:348px;
+height:82px;
+margin-top:2px;
 background:#373737;
 background-image:linear-gradient(to bottom, #000000, #242424);
 border-bottom:2px solid #00a2ff;
@@ -81,12 +81,8 @@ div{
 border-color: purple;
 font-size: 250%;
 }
-.row {
-	border-color: indigo;
-}
-header {
-	
-}
+
+
 header {
 	font-size:150% 
 }
@@ -99,25 +95,3 @@ h1{
 } 
 h2 {
 	font-size: 120%
-}
-article{
-	
-}
-p {
-	font-size: 90%
-}
-header {
-	font-family: 'Lora', serif;
-}
-h1 {
-	font-family: 'Lora', serif;
-}
-h2 {
-	font-family: 'Lora', serif;
-}
-p {
-	font-family: 'Lora',serif;
-}
-a{
-	color: red;
-}
