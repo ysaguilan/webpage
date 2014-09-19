@@ -2,13 +2,9 @@ body {
 	background-image: url('http://i271.photobucket.com/albums/jj125/veritas771/backgrounds/black_background_15.png');
 	background-size: 2290px;
 	}
-#container {
-	width:960px;
-	margin: 0px auto;
-}
-#yellow-menu {
-width:244px;
-height:42px;
+	#yellow-menu {
+width:600px;
+height:40px;
 margin-top:16px;
 background:#373737;
 background-image:linear-gradient(to bottom, #373737, #242424);
@@ -46,6 +42,37 @@ transition:all 0.2s linear;
 -webkit-transition:all 0.2s linear;
 -o-transition:all 0.2s linear;
 }
+
+#yellow-menu a:hover h5 {
+margin-top:-40px;
+}
+
+#yellow-menu div {
+width:auto;
+height:28px;
+display:block;
+background:#f1cc00;
+overflow:hidden;
+padding-right:4px;
+padding-left:4px;
+padding-top:12px;
+color:#ffffff;
+cursor:pointer;
+
+transition:all 0.2s linear;
+-moz-transition:all 0.2s linear;
+-webkit-transition:all 0.2s linear;
+-o-transition:all 0.2s linear;
+}
+
+#yellow-menu a:hover div {
+opacity:1;
+}
+#container {
+	width:960px;
+	margin: 0px auto;
+}
+
 #left-column {
 	width: 700px;
 	float: left;
