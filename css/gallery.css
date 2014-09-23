@@ -98,7 +98,10 @@ opacity:1;
 		width: 30%;
 	}
 }
-
+#carousel-example-generic{
+	vertical-align: center;
+	width: 500px;
+}
 
 .photos {
 	padding-left: 500px;
