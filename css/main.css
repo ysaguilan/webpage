@@ -7,8 +7,10 @@ body{
 	color: white;
 }
 #blue-menu {
-width:298px;
-height:84px;
+width:349px;
+padding-left: 5px;
+padding-right: 10px; 
+height:77px;
 margin-top:2px;
 background:#373737;
 background-image:linear-gradient(to bottom, #000000, #242424);
@@ -72,7 +74,20 @@ transition:all 0.2s linear;
 #blue-menu a:hover div {
 opacity:1;
 }
-
+@media screen and (max-width:959px) {
+	#container{
+		width: 100%;
+	}
+	#left-column{
+		width: 70%;
+	}
+	#right-column{
+		width: 30%;
+	}
+	#blue-menu{
+		width: 105%;
+	}
+}
 div{
 	border-style: solid;
 	border-width: 5px;
