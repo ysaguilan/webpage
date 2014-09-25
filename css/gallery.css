@@ -97,10 +97,14 @@ opacity:1;
 	#right-column{
 		width: 30%;
 	}
+	#carousel{
+		width: 100%;
+	}
 }
-#carousel-example-generic{
-	vertical-align: center;
-	width: 500px;
+#carousel{
+	position: right;
+	width: 200px;
+	cursor: pointer;
 }
 
 .photos {
